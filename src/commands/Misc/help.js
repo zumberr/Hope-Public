@@ -48,7 +48,7 @@ module.exports = class Help extends Command {
         * DADOS NECESSARIOS FUNCIONAMENTO DE ALGUMAS PARTES
         * ------------------------------------------------------------------------------------------------ */
         const guildDB = await Guild.findOne({
-            tag: '622812963572809771',
+            tag: '622812963572809771', /// this will make a error in line 106  this is a guild or a data? 
         });
 
         const stats = {
